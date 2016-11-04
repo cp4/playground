@@ -14,9 +14,9 @@ function close_win()
 {
 if (window.confirm("是否关闭页面"))
   {
-  alert("nihao")
-   window.opener=null;
-   window.open('','_self');
+  alert("nihao");
+   //window.opener=null;
+   //window.open('','_self');
    window.close();
   }
 }
