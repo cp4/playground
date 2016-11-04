@@ -10,7 +10,7 @@ function disp_prompt()
         document.write(name)
       }
   }
-function close_win()
+function close_win_f()
 {
 //if (window.confirm("是否关闭页面"))
   if (confirm("是否关闭页面？"))
@@ -20,4 +20,13 @@ function close_win()
    //window.open('','_self');
    window.close();
   }
+}
+function close_win() {
+	var choice = confirm("真的要离开吗？");
+	if (choice == true) {
+		window.close();
+	}
+	else {
+		alert("再看看呗！");
+	}
 }
