@@ -12,7 +12,8 @@ function disp_prompt()
   }
 function close_win()
 {
-if (window.confirm("是否关闭页面"))
+//if (window.confirm("是否关闭页面"))
+  if (confirm("是否关闭页面？"))
   {
   //alert("nihao");
    //window.opener=null;
